@@ -1,0 +1,96 @@
+body{
+    background: url("https://www.imageupload.co.uk/images/2017/04/13/ferry-527728_1920.jpg") no-repeat center center fixed; 
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+.clock{
+  height:350px;
+  width:350px;
+  background:	#686f77;
+  border-radius:100%;
+  margin:210px 160px 50px auto;
+  position: relative;
+  border-style:solid;
+  border-width:8px;
+  border-color:#f1f0f5;
+  }
+
+.hand{
+  position:absolute;
+  top:50%;
+  right:50%;
+  height:5px;
+  background:black;
+  transform:rotate(90deg);
+  transform-origin: 100%;
+  transition:all 0.05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.second-hand{
+  width:48%;
+  height:3px;
+  background:black;
+  border-radius:5px;
+}
+
+.min-hand{
+  width:40%;
+  height:5px;
+  background:black;
+  border-radius:5px;
+}
+
+.hour-hand{
+  width:30%;
+  height:8px;
+  background:black;
+  border-radius:5px;
+  right:50%;
+}
+
+.time{
+  position:absolute;
+  font-size:40px;
+  margin:auto;
+  height:1em;
+  text-align:center;
+}
+
+
+.time1{
+ top:10px;
+ left:0;
+ right:0;
+}
+.time2{
+ right:10px;
+ top:0;
+ bottom:0; 
+}
+.time3{
+ bottom:10px;
+ left:0;
+ right:0;
+}
+.time4{
+ left:10px;
+ top:0;
+ bottom:0;
+}
+
+.center{
+  width:15px;
+  height:15px;
+  background:black;
+  border-radius:100%;
+  margin:auto;
+  bottom:0;
+  right:0;
+  top:6px;
+  left:0;
+  position:absolute;
+}
